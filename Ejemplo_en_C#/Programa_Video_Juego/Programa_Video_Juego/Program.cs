@@ -94,7 +94,7 @@ namespace Programa_Video_Juego
                 case ConsoleKey.C:
                     Enemigo zombie_extra = new Enemigo(50);
                     l_zombies.Add(zombie_extra);
-                    Console.WriteLine("Hay " + l_zombies.Count + " szombies con vida.");
+                    Console.WriteLine("Hay " + l_zombies.Count + " zombies con vida.");
                     break;
             }
         }

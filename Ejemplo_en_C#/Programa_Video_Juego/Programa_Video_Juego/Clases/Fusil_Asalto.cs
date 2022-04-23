@@ -25,23 +25,27 @@ namespace Programa_Video_Juego.Clases
                 if (objetivo.Vida <= 0)
                 {
                     objetivo.Vida = 0;
-                    return "\nNo se pudo disparar el FUSIL de ASALTO, el ENEMIGO esta muerto." + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
+                    return "\nNo se pudo disparar el Fusil de Asalto, el Enemigo ya esta muerto." + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
                 }
                 else
                 {
                     objetivo.Vida -= daño;
                     municion -= 1;
                 }
-                return "\nSe disparo el FUSIL de ASALTO" + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
+                return "\nSe disparo el Fusil de Asalto." + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
             }
             else if (municion <= 0)
             {
-                return "\nNo se pudo disparar el FUSIL de ASALTO, no tiene municion." + municion;
+                return "\nNo se pudo disparar el Fusil de Asalto. Sin municion: " + municion;
             }
             else
             {
                 return "Ocurrio un error";
             }
+        }
+        public override string ToString()
+        {
+            return "Fusil de Asalto.";
         }
     }
 }

@@ -26,7 +26,7 @@ namespace Programa_Video_Juego.Clases
                 if (objetivo.Vida <= 0)
                 {
                     objetivo.Vida = 0;
-                    return "\nNo se pudo disparar la PISTOLA, el ENEMIGO esta muerto." + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
+                    return "\nNo se pudo disparar la Pistola, el Enemigo ya esta muerto." + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
                 }
                 else
                 {
@@ -34,16 +34,20 @@ namespace Programa_Video_Juego.Clases
                     municion -= 1;
                 }
                 
-                return "\nSe disparo la PISTOLA" + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
+                return "\nSe disparo la Pistola." + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
             }
             else if (municion <= 0)
             {
-                return "\nNo se pudo disparar la PISTOLA, no tiene municion." + municion;
+                return "\nNo se pudo disparar la Pistola. Sin municion: " + municion;
             }
             else
             {
                 return "Ocurrio un error";
             }
+        }
+        public override string ToString()
+        {
+            return "Pistola.";
         }
     }
 }

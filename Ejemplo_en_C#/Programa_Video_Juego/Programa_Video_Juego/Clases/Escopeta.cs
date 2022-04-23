@@ -25,23 +25,28 @@ namespace Programa_Video_Juego.Clases
                 if (objetivo.Vida <= 0)
                 {
                     objetivo.Vida = 0;
-                    return "\nNo se pudo disparar la ESCOPETA, el ENEMIGO esta muerto." + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
+                    return "\nNo se pudo disparar la Escopeta, el Enemigo ya esta muerto." + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
                 }
                 else
                 {
                     objetivo.Vida -= daño;
                     municion -= 2;
                 }
-                return "\nSe disparo la ESCOPETA" + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
+                return "\nSe disparo la Escopeta" + "\nVida del objetivo: " + objetivo.Vida + "\nMunicion: " + municion;
             }
             else if (municion <= 0)
             {
-                return "\nNo se pudo disparar la ESCOPETA, no tiene municion." + municion;
+                return "\nNo se pudo disparar la Escopeta, no tiene municion: " + municion;
             }
             else
             {
                 return "Ocurrio un error";
             }
+        }
+
+        public override string ToString()
+        {
+            return "Escopeta.";
         }
     }
 }
