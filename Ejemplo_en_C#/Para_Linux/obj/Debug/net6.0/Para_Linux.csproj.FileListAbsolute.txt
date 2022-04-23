@@ -1,0 +1,15 @@
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/bin/Debug/net6.0/Para_Linux
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/bin/Debug/net6.0/Para_Linux.deps.json
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/bin/Debug/net6.0/Para_Linux.runtimeconfig.json
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/bin/Debug/net6.0/Para_Linux.dll
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/bin/Debug/net6.0/Para_Linux.pdb
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/Debug/net6.0/Para_Linux.csproj.AssemblyReference.cache
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/Debug/net6.0/Para_Linux.GeneratedMSBuildEditorConfig.editorconfig
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/Debug/net6.0/Para_Linux.AssemblyInfoInputs.cache
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/Debug/net6.0/Para_Linux.AssemblyInfo.cs
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/Debug/net6.0/Para_Linux.csproj.CoreCompileInputs.cache
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/Debug/net6.0/Para_Linux.dll
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/Debug/net6.0/refint/Para_Linux.dll
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/Debug/net6.0/Para_Linux.pdb
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/Debug/net6.0/Para_Linux.genruntimeconfig.cache
+/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/Debug/net6.0/ref/Para_Linux.dll
