@@ -45,9 +45,12 @@ namespace Programa_Video_Juego.Clases
                 return "Ocurrio un error";
             }
         }
+
+
         public override string ToString()
         {
             return "Pistola.";
         }
+        
     }
 }
