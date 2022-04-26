@@ -1,7 +1,6 @@
 {
     "files.associations": {
-        "stdlib.h": "c",
-        "string.h": "c",
-        "video_juego.h": "c"
+        "videojuego.h": "c",
+        "fusil.h": "c"
     }
 }

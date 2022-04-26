@@ -3,10 +3,10 @@
 
 typedef struct _machete
 {
-   int daño;
+   int dano;
 } Machete;
 
-Machete *Crear_Machete(int daño);
+Machete *Crear_Machete(int dano);
 void Destruir_Machete(Machete *este_machete);
 
 #endif
