@@ -30,6 +30,7 @@ Aqui se muestra el diagrama .Dia completo con sus constructores y metodos de cad
 ## Analisis de la Memoria en C# ##
 ![image](https://github.com/jfUPB/sc2022-10-u3-e1-Michikatsu0/blob/main/Diagrama/Sin%20t%C3%ADtulo-2.png?raw=true)
 
+
 ## Video ##
 Link del Video: 
 
