@@ -24,14 +24,13 @@ Aqui se muestra el diagrama reducido con sus relaciones.
 Aqui se muestra el diagrama .Dia completo con sus constructores y metodos de cada clase.
 ![image](https://user-images.githubusercontent.com/68073260/165023328-a668d243-d1ac-4831-aab3-2787db55ee47.png)
 
-## Analisis de la Memoria ##
+## Analisis de la Memoria en C ##
+![image](https://github.com/jfUPB/sc2022-10-u3-e1-Michikatsu0/blob/main/Diagrama/Sin%20t%C3%ADtulo-1.png?raw=true)
 
-![image]
-![image]
-![image]
-![image]
+## Analisis de la Memoria en C# ##
+![image](https://github.com/jfUPB/sc2022-10-u3-e1-Michikatsu0/blob/main/Diagrama/Sin%20t%C3%ADtulo-2.png?raw=true)
 
 ## Video ##
-
+Link del Video: 
 
 
