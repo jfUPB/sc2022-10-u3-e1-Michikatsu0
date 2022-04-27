@@ -32,6 +32,6 @@ Aqui se muestra el diagrama .Dia completo con sus constructores y metodos de cad
 
 
 ## Video ##
-Link del Video: 
+Link del Video: https://www.youtube.com/watch?v=2hpkGp3YWc4
 
 
