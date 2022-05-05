@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/sebastian/.nuget/packages/": {}
+    "/home/pop-os/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/Para_Linux.csproj",
+      "projectUniqueName": "/home/pop-os/Documents/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Visual_Code/Para_Linux.csproj",
       "projectName": "Para_Linux",
-      "projectPath": "/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/Para_Linux.csproj",
-      "packagesPath": "/home/sebastian/.nuget/packages/",
-      "outputPath": "/home/sebastian/Documentos/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Linux/obj/",
+      "projectPath": "/home/pop-os/Documents/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Visual_Code/Para_Linux.csproj",
+      "packagesPath": "/home/pop-os/.nuget/packages/",
+      "outputPath": "/home/pop-os/Documents/sc2022-10-u3-e1-Michikatsu0/Ejemplo_en_C#/Para_Visual_Code/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/sebastian/.nuget/NuGet/NuGet.Config"
+        "/home/pop-os/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/162/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
