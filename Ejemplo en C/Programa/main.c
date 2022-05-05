@@ -85,8 +85,7 @@ void *Teclado_P(void *data)
                 break;
             case 'c':
                 dataTmp->tno_l_enemigos++;
-                //+ dataTmp->tno_l_enemigos))    
-                dataTmp->l_enemigos[0]  = Crear_Enemigo(50);
+                ((Enemigo *)(dataTmp->l_enemigos))[dataTmp->tno_l_enemigos] = *Crear_Enemigo(50);
                 printf("Hay %i zombies con vida.", dataTmp->tno_l_enemigos);
                 break;
             default:
@@ -102,6 +101,7 @@ int main(int argc, char *argv[])
     VideoJuego *nuevo_video_juego = Crear_Video_Juego();
     Enemigo l_enemigos[10];
     char buffer;
+
     for (int8_t i = 0; i < 10; i++)
     {
         l_enemigos[i] = *(Enemigo *)malloc(sizeof(Enemigo));
@@ -112,7 +112,7 @@ int main(int argc, char *argv[])
     pthread_t thread2;
     
 
-    struct threadParam_t threadParam = {nuevo_video_juego, (Enemigo (*)[])l_enemigos, false, &buffer ,0, 0};
+    struct threadParam_t threadParam = {nuevo_video_juego, &l_enemigos, false, &buffer ,0, 0};
 
     pthread_create(&thread1, NULL, &Teclado_P, &threadParam);
     pthread_create(&thread2, NULL, &Juego, &threadParam);
